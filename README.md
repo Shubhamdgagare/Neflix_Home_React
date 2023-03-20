@@ -8,6 +8,5 @@ SYNTAX :
 
 $ npm i sass react-router-dom react-icons axios
 
-2 >==> starting app and cleaning unneccesory files
-
-
+create your api key from themoviedb website api
+website link - https://www.themoviedb.org/
