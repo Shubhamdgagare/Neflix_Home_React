@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+}
+
+a,h2{
+    color: white;
+}
+
+$bg: rgb(16,16,16);
+
+.header{
+    background-color: $bg;
+    height: 80px;
+    display: flex;
+    align-items: left;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    
+    >a{
+
+        height: 130%;
+
+        > img{
+            height: 100%;
+        }
+    }
+
+    
+
+    > div{
+        width: 100%;
+        margin-left: 4vmax;
+
+        > a{
+            margin: 2vmax;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: transform 0.5s;
+            
+            
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+
+    > svg{
+        color: white;
+        font-size: 1.7rem;
+        cursor:pointer;
+        margin-right: 2vmax;
+
+        // scss features where we can use & to use hover inside element
+
+        &:hover{
+            color: rgb(216, 216, 216);
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    color: darkgray;
+}
