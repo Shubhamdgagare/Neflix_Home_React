@@ -8,7 +8,7 @@ import {BiPlay} from "react-icons/bi";
 import {AiOutlinePlus} from "react-icons/ai";
 
 // saving api key locally but will save it later in .env file
-const apiKey = "56eafcc171d50d77064d5add6be76a71";
+// const apiKey = your api key from themoviedb website api;
 const url = "https://api.themoviedb.org/3";
 const imgUrl= "https://image.tmdb.org/t/p/original"
 
